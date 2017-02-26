@@ -1,0 +1,60 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+#wpadminbar .notifications-wrapper {
+    width: 400px;
+    max-width: 500px;
+    max-height: 60vh;
+    overflow-y: scroll;
+}
+
+#wpadminbar .notification-item {
+    padding: 1em 1.5em;
+    border-bottom: 1px solid #555;
+    border-left: 3px solid;
+    transition: all .2s;
+}
+
+#wpadminbar .notification-item:hover {
+    border-left-width: 5px;
+}
+
+#wpadminbar .notification-item-update {
+    border-left-color: rgb(51,204,102);
+}
+#wpadminbar .notification-item-warning {
+    border-left-color: rgb(255,153,51);
+}
+#wpadminbar .notification-item-info {
+    border-left-color: rgb(0,153,255);
+}
+#wpadminbar .notification-item-error {
+    border-left-color: rgb(204,0,51);
+}
+
+#wpadminbar .notification-item .dashicons{
+    font-family: dashicons;
+}
+
+#wpadminbar .notifications-menu-item .dashicons{
+    font-family: dashicons;
+    font-size: 1.2rem;
+}
+
+#wpadminbar .notification-item h5 {font-size: 1rem;}
+#wpadminbar .notification-item p {line-height: 1.4em;}
+
+
+#wpadminbar .notifications-wrapper .notifications-load-more {
+    padding: 1em 1.5em;
+    text-align: center;
+    color: #999;
+    display: block;
+    transition: all .2s;
+}
+
+#wpadminbar .notifications-wrapper .notifications-load-more:hover {
+    background: #333;
+}
